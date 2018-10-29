@@ -1,7 +1,8 @@
 fun minhaPrimeiraFuncao(nome: String = "Visitante", idade: Int = 15)
 {
     print(nome)
-    print(". Tenho "+ idade + " anos")
+    //Agora que você já sabe um pouco mais cobre concatenação de strings é legal utilizá-la
+    print(". Tenho $idade anos")
 }
 
 fun main(args: Array <String>)
